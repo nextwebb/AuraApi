@@ -1,0 +1,38 @@
+{
+  "name": "authapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yokomon/authAPi.git"
+  },
+  "author": "yokomon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yokomon/authAPi/issues"
+  },
+  "homepage": "https://github.com/Yokomon/authAPi#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cloudinary": "^1.19.0",
+    "cors": "^2.8.5",
+    "datauri": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

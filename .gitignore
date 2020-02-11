@@ -1,0 +1,5 @@
+# Git should ignore my node modules
+/node_modules
+
+#In order to ignore my env files
+.env
